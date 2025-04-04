@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry - Ahezaz Tuition Class</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .subject-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .subject-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .subject-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .subject-info {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .subject-info h3 {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .topics-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .topics-list li {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .topics-list li:hover {
+            transform: translateX(10px);
+        }
+
+        .benefits {
+            margin-top: 2rem;
+        }
+
+        .benefits ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .benefits li {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .benefits i {
+            color: var(--secondary-color);
+            margin-right: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .subject-details {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Ahezaz Tuition Class</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#courses">Courses</a></li>
+            <li><a href="index.html#teachers">Teachers</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#login" class="login-btn">Student Portal</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Subject Header -->
+    <section class="subject-header">
+        <h1>Chemistry</h1>
+        <p>Explore the fascinating world of atoms and molecules</p>
+    </section>
+
+    <!-- Subject Content -->
+    <section class="subject-content">
+        <div class="subject-details">
+            <div class="subject-info">
+                <h3>Course Overview</h3>
+                <p>Our Chemistry program provides a comprehensive understanding of chemical principles, reactions, and applications. Through hands-on experiments and theoretical knowledge, students develop a deep appreciation for the chemical world around them.</p>
+                
+                <div class="benefits">
+                    <h3>Key Benefits</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Practical laboratory experience</li>
+                        <li><i class="fas fa-check-circle"></i> Expert guidance from experienced chemists</li>
+                        <li><i class="fas fa-check-circle"></i> Interactive learning sessions</li>
+                        <li><i class="fas fa-check-circle"></i> Real-world applications</li>
+                        <li><i class="fas fa-check-circle"></i> Regular assessments and feedback</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="subject-info">
+                <h3>Topics Covered</h3>
+                <ul class="topics-list">
+                    <li>Atomic Structure and Bonding</li>
+                    <li>Chemical Reactions and Equations</li>
+                    <li>Organic Chemistry</li>
+                    <li>Inorganic Chemistry</li>
+                    <li>Physical Chemistry</li>
+                    <li>Analytical Chemistry</li>
+                    <li>Environmental Chemistry</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="subject-info">
+            <h3>Course Structure</h3>
+            <p>Our Chemistry program is structured to provide a progressive learning experience:</p>
+            <ul class="topics-list">
+                <li><strong>Foundation Level:</strong> Basic chemical concepts and laboratory safety</li>
+                <li><strong>Intermediate Level:</strong> Advanced chemical principles and experiments</li>
+                <li><strong>Advanced Level:</strong> Specialized topics and research projects</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Ahezaz Tuition Class</h3>
+                <p>Quality Education for a Brighter Future</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#courses">Courses</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ahezaz Tuition Class. All rights reserved.</p>
+            <p class="credit">Website Designed & Developed by <a href="#" class="developer-link">Aamer Bhankiwala</a></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
